@@ -1,0 +1,28 @@
+* {
+  border: 1px solid black;
+}
+
+img {
+  /*max-width: 100%;*/
+  /*display: block;*/
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+
+}
+.huge-img {
+  display: flex;
+}
+.featured-work {
+  display: flex;
+  /*flex-flow: */
+}
+.project-img {
+  flex-shrink: 1;
+}
