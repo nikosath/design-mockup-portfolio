@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  border: 1px solid black !important;
 }
 
 img {
@@ -25,4 +25,9 @@ img {
 }
 .project-img {
   flex-shrink: 1;
+  -webkit-flex-shrink;
+}
+.flex-item {
+  flex-shrink: 1;
+  -webkit-flex-shrink;
 }
