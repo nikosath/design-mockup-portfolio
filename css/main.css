@@ -7,29 +7,41 @@ img {
   /*display: block;*/
 }
 .body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 
 }
 .huge-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .featured-work {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   /*flex-flow: */
 }
 .project-img {
   -ms-flex-negative: 1;
   flex-shrink: 1;
-  -webkit-flex-shrink;
 }
 .flex-item {
   -ms-flex-negative: 1;
-  flex-shrink: 1;
-  -webkit-flex-shrink;
+      flex-shrink: 1;
+
 }
