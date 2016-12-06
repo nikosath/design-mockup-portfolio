@@ -24,10 +24,12 @@ img {
   /*flex-flow: */
 }
 .project-img {
+  -ms-flex-negative: 1;
   flex-shrink: 1;
   -webkit-flex-shrink;
 }
 .flex-item {
+  -ms-flex-negative: 1;
   flex-shrink: 1;
   -webkit-flex-shrink;
 }
