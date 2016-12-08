@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 
   <head>
@@ -8,63 +9,88 @@
     <title>Nikos Athanasakis Portfolio Site</title>
     <link rel="stylesheet" href="css/normalize.css">
     <!-- <link rel="stylesheet" href="css/main.css"> -->
-    <!-- build/main.css is the auto-prefixed version of css/main.css -->
+    <!-- build/ contains the auto-prefixed versions of css/*.css -->
     <link rel="stylesheet" href="build/main.css">
+    <link rel="stylesheet" href="build/modal.css">
+    <!-- basic favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <script src="js/jquery-3.1.1.js"></script>
   </head>
 
   <body>
-
-    <header class="page-header">
-      <div class="flex-item">
-        <img class="logo" src="img/logo.png" alt="logo">
-      </div>
-      <div class="flex-item">
-        <h1 class="my-name">Nikos Athanasakis</h1>
-        <h3 class="my-description">Front-End X</h3>
-      </div>
-      <!-- <div class="header-logo">
+    <div class="page-container">
+      <header class="page-header">
+        <div class="flex-item">
+          <img class="logo" src="img/logo.png" alt="logo">
+        </div>
+        <div class="flex-item">
+          <h1 class="my-name">Nikos Athanasakis</h1>
+          <h3 class="my-description">Front-End X</h3>
+        </div>
+        <!-- <div class="header-logo">
       </div> -->
-      <!-- <img src="img/logo.png" alt=""> -->
-    </header>
-    <main>
-      <section class="huge-img-container">
-        <div class="flex-item">
-          <img src="http://placehold.it/900x150" alt="">
-        </div>
-      </section>
-      <h2>Featured Work</h2>
-      <section class="featured-work">
+        <!-- <img src="img/logo.png" alt=""> -->
+      </header>
+      <main>
+        <section class="huge-img-container">
+          <div class="flex-item">
+            <img class="huge-img" src="http://placebear.com/900/150" alt="Bear">
+          </div>
+        </section>
+        <h2>Featured Work</h2>
+        <section class="featured-work">
 
-        <div class="flex-item">
-          <figure>
-            <img class="project-img" src="http://placehold.it/200x150" alt="Project 1">
-            <figcaption>
-              <h3>App1</h3>
-              <a href="#">link</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="flex-item">
-          <figure>
-            <img class="project-img" src="http://placehold.it/200x150" alt="Project 2">
-            <figcaption>
-              <h3>App2</h3>
-              <a href="#">link</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="flex-item">
-          <figure>
-            <img class="project-img" src="http://placehold.it/200x150" alt="Project 3">
-            <figcaption>
-              <h3>App3</h3>
-              <a href="#">link</a>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-    </main>
+          <div class="flex-item">
+            <figure>
+              <img id="project1Img" class="project-img" src="http://placecage.com/200/300" alt="Cage">
+              <figcaption>
+                <h3 class="project-title">App1</h3>
+                <p>
+                  <a href="#">link</a>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="flex-item">
+            <figure>
+              <img id="project2Img" class="project-img" src="http://fillmurray.com/200/300" alt="Bill">
+              <figcaption>
+                <h3 class="project-title">App2</h3>
+                <p>
+                  <a href="#">link</a>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="flex-item">
+            <figure>
+              <img id="project3Img" class="project-img" src="http://placebear.com/200/300" alt="small bear">
+              <figcaption>
+                <h3 class="project-title">App3</h3>
+                <p>
+                  <a href="#">link</a>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
 
+        </section>
+      </main>
+
+      <!-- The Modal -->
+      <div id="projectModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">x</span>
+          <img id="modal-img" src="" alt="A project">
+          <p>Some text in the Modal..</p>
+        </div>
+      </div>
+      <!-- End of The Modal -->
+
+      <script src="js/modal.js"></script>
+     </div> <!-- .page-container -->
   </body>
 
 </html>
