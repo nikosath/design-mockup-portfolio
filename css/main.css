@@ -3,7 +3,6 @@
   border: 2px solid green;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -19,9 +18,11 @@ img {
   /*height: auto;*/
   /*display: block !important;*/
 }
+
 h2 {
   text-align: center;
 }
+
 .flex-item {
   border: 5px solid orange;
   /*flex-grow: 1;*/
@@ -35,11 +36,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   font-variant: small-caps;
-
 }
-
-
-/*.page-header flex-item:first-child {*/
 
 .page-header> :first-child {
   flex-shrink: 3;
@@ -93,6 +90,7 @@ figure {
 figcaption {
   text-align: center;
 }
+
 figcaption h3 {
   font-variant: small-caps;
 }
