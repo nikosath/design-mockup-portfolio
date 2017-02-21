@@ -1,1 +1,2 @@
-# design-mockup-portfolio
+# Design Mockup Portfolio Udacity
+Front End NanoDegree Project
